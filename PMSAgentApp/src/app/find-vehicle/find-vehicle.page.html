@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Find Vehicle</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Find Vehicle</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-item>
+      <ion-input label="Vehicle Number" placeholder="Enter Vehicle Number" [(ngModel)]="vehicleNumber"></ion-input>
+    </ion-item>
+
+    <ion-button expand="block" (click)="searchVehicle()">Search Vehicle</ion-button>
+
+    <ion-card *ngIf="vehicleInfo">
+      <ion-card-header>
+        <ion-card-title>Vehicle Details</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p><strong>Vehicle Number:</strong> {{ vehicleInfo.VehicleNumber }}</p>
+        <p><strong>Owner Name:</strong> {{ vehicleInfo.OwnerName }}</p>
+        <p><strong>Location:</strong> {{ vehicleInfo.Location }}</p>
+        <p><strong>In Time:</strong> {{ vehicleInfo.InTime | date:'medium' }}</p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card *ngIf="!vehicleInfo && searched">
+      <ion-card-header>
+        <ion-card-title>No Vehicle Found</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>Could not find any vehicle with the provided number.</p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "_temp_ionic_app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

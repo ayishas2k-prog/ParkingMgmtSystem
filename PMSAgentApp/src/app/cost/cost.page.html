@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Cost Management</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Cost Management</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-list>
+      <ion-item>
+        <ion-input label="Hourly Rate" type="number" [(ngModel)]="costSettings.hourlyRate"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Night Charge (Hourly)" type="number" [(ngModel)]="costSettings.nightChargeHourly"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Daily Rate" type="number" [(ngModel)]="costSettings.dailyRate"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Weekly Rate" type="number" [(ngModel)]="costSettings.weeklyRate"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Monthly Rate" type="number" [(ngModel)]="costSettings.monthlyRate"></ion-input>
+      </ion-item>
+    </ion-list>
+
+    <ion-button expand="block" (click)="saveCosts()">Save Costs</ion-button>
+  </div>
+</ion-content>

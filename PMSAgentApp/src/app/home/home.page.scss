@@ -1,0 +1,28 @@
+.dashboard-card {
+  height: 150px; // A fixed height for consistency
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  ion-icon {
+    font-size: 3rem; // Larger icon
+    margin-bottom: 0.5rem;
+  }
+
+  ion-card-header {
+    padding: 0;
+  }
+
+  ion-card-title {
+    font-size: 1rem; // Smaller title to prevent overflow
+    white-space: normal;
+  }
+}
