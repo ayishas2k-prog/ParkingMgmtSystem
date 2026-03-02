@@ -1,0 +1,212 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|c:\\users\\mikhi\\source\\repos\\numplatecapture\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|c:\\users\\mikhi\\source\\repos\\numplatecapture\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|c:\\users\\mikhi\\source\\repos\\numplatecapture\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|c:\\users\\mikhi\\source\\repos\\numplatecapture\\imagecapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|solutionrelative:imagecapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|c:\\users\\mikhi\\source\\repos\\numplatecapture\\plateinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|solutionrelative:plateinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|c:\\users\\mikhi\\source\\repos\\numplatecapture\\azurecv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|solutionrelative:azurecv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|c:\\users\\mikhi\\source\\repos\\numplatecapture\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|c:\\users\\mikhi\\source\\repos\\numplatecapture\\cosmosdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|solutionrelative:cosmosdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|c:\\users\\mikhi\\source\\repos\\numplatecapture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|c:\\users\\mikhi\\source\\repos\\numplatecapture\\vehicleinoutregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|solutionrelative:vehicleinoutregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|c:\\users\\mikhi\\source\\repos\\numplatecapture\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB985AE-8150-49CD-89D5-CA0085F62414}|NumPlateCapture.csproj|solutionrelative:frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\frmMain.cs",
+              "RelativeToolTip": "frmMain.cs",
+              "ViewState": "AQIAAL4AAAAAAAAAAAD4vzUBAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T11:41:41.963Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-02-06T10:45:17.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-06T10:45:10.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AzureCV.cs",
+              "DocumentMoniker": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\AzureCV.cs",
+              "RelativeDocumentMoniker": "AzureCV.cs",
+              "ToolTip": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\AzureCV.cs",
+              "RelativeToolTip": "AzureCV.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T04:51:20.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImageCapture.cs",
+              "DocumentMoniker": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\ImageCapture.cs",
+              "RelativeDocumentMoniker": "ImageCapture.cs",
+              "ToolTip": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\ImageCapture.cs",
+              "RelativeToolTip": "ImageCapture.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:35:39.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VehicleInOutRegister.cs",
+              "DocumentMoniker": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\VehicleInOutRegister.cs",
+              "RelativeDocumentMoniker": "VehicleInOutRegister.cs",
+              "ToolTip": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\VehicleInOutRegister.cs",
+              "RelativeToolTip": "VehicleInOutRegister.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:30:26.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\frmMain.cs [Design]",
+              "RelativeToolTip": "frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T07:54:37.853Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\frmMain.Designer.cs",
+              "RelativeDocumentMoniker": "frmMain.Designer.cs",
+              "ToolTip": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\frmMain.Designer.cs",
+              "RelativeToolTip": "frmMain.Designer.cs",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAAAKAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T14:39:58.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlateInformation.cs",
+              "DocumentMoniker": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\PlateInformation.cs",
+              "RelativeDocumentMoniker": "PlateInformation.cs",
+              "ToolTip": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\PlateInformation.cs",
+              "RelativeToolTip": "PlateInformation.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAHAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T13:33:01.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAywB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:27:43.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CosmosDbService.cs",
+              "DocumentMoniker": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\CosmosDbService.cs",
+              "RelativeDocumentMoniker": "CosmosDbService.cs",
+              "ToolTip": "C:\\Users\\mikhi\\source\\repos\\NumPlateCapture\\CosmosDbService.cs",
+              "RelativeToolTip": "CosmosDbService.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAjwEcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T12:32:04.767Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
