@@ -1,0 +1,44 @@
+.payment-card {
+  margin: 0 0 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  ion-card-title {
+    font-weight: bold;
+    color: var(--ion-color-primary);
+  }
+}
+
+.payment-info {
+  .info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    span {
+      font-weight: 500;
+    }
+  }
+
+  .amount-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--ion-color-light-shade);
+    font-size: 1.1em;
+    font-weight: bold;
+    .amount {
+      color: var(--ion-color-success);
+    }
+  }
+}
+
+.no-data {
+  color: var(--ion-color-medium);
+  padding: 40px 0;
+  ion-icon {
+    font-size: 4em;
+    margin-bottom: 20px;
+  }
+}

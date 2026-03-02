@@ -1,0 +1,7 @@
+{
+  "name": "npr-user-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

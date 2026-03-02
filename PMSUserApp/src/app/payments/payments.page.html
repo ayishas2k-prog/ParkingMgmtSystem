@@ -1,0 +1,50 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Payments</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="loadPayments()">
+        <ion-icon name="refresh-outline" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div *ngIf="payments.length > 0">
+    <ion-card *ngFor="let payment of payments" class="payment-card">
+      <ion-card-header>
+        <ion-card-title>{{ payment.vehicleNumber }}</ion-card-title>
+        <ion-card-subtitle>Pending Payment</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <div class="payment-info">
+          <div class="info-row">
+            <ion-text color="medium">In Time:</ion-text>
+            <span>{{ payment.inTime | date:'medium' }}</span>
+          </div>
+          <div class="info-row" *ngIf="payment.outTime">
+            <ion-text color="medium">Out Time:</ion-text>
+            <span>{{ payment.outTime | date:'medium' }}</span>
+          </div>
+          <div class="info-row" *ngIf="payment.duration">
+            <ion-text color="medium">Duration:</ion-text>
+            <span>{{ payment.duration }}</span>
+          </div>
+          <div class="amount-row">
+            <ion-text color="dark">Total Amount:</ion-text>
+            <span class="amount">{{ payment.amount | currency }}</span>
+          </div>
+        </div>
+        <ion-button expand="block" color="primary" (click)="processPayment(payment)" class="ion-margin-top">
+          <ion-icon name="logo-google" slot="start"></ion-icon>
+          Pay with Google Pay
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <div *ngIf="payments.length === 0" class="ion-text-center ion-margin-top no-data">
+    <ion-icon name="checkmark-circle-outline" size="large" color="success"></ion-icon>
+    <p>No pending payments! You're all clear.</p>
+  </div>
+</ion-content>

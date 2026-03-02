@@ -1,0 +1,59 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/login"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="register-container">
+    <div class="logo-placeholder ion-text-center">
+      <ion-icon name="person-add-outline" size="large" color="primary"></ion-icon>
+      <h1>Create Account</h1>
+    </div>
+
+    <form [formGroup]="registerForm" (ngSubmit)="onRegister()">
+      <ion-item lines="full">
+        <ion-label position="floating">Full Name</ion-label>
+        <ion-input formControlName="name" type="text"></ion-input>
+      </ion-item>
+      <div class="error-message" *ngIf="registerForm.get('name')?.touched && registerForm.get('name')?.invalid">
+        Name is required.
+      </div>
+
+      <ion-item lines="full">
+        <ion-label position="floating">Email</ion-label>
+        <ion-input formControlName="email" type="email"></ion-input>
+      </ion-item>
+      <div class="error-message" *ngIf="registerForm.get('email')?.touched && registerForm.get('email')?.invalid">
+        Please enter a valid email address.
+      </div>
+
+      <ion-item lines="full">
+        <ion-label position="floating">Password</ion-label>
+        <ion-input formControlName="password" type="password"></ion-input>
+      </ion-item>
+      <div class="error-message" *ngIf="registerForm.get('password')?.touched && registerForm.get('password')?.invalid">
+        Password must be at least 6 characters.
+      </div>
+
+      <ion-item lines="full">
+        <ion-label position="floating">Confirm Password</ion-label>
+        <ion-input formControlName="confirmPassword" type="password"></ion-input>
+      </ion-item>
+      <div class="error-message" *ngIf="registerForm.get('confirmPassword')?.touched && registerForm.hasError('mismatch')">
+        Passwords do not match.
+      </div>
+
+      <ion-button expand="block" type="submit" [disabled]="registerForm.invalid" class="ion-margin-top">
+        Register
+      </ion-button>
+    </form>
+
+    <div class="login-link ion-text-center ion-margin-top">
+      <p>Already have an account? <ion-text color="primary" (click)="goToLogin()" class="clickable">Login here</ion-text></p>
+    </div>
+  </div>
+</ion-content>

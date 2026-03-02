@@ -1,0 +1,31 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+
+  .logo-placeholder {
+    margin-bottom: 20px;
+    h1 {
+      margin-top: 10px;
+      font-weight: bold;
+      color: var(--ion-color-primary);
+    }
+  }
+
+  .error-message {
+    color: var(--ion-color-danger);
+    font-size: 0.8em;
+    padding-left: 16px;
+    margin-top: 5px;
+  }
+
+  .login-link {
+    .clickable {
+      cursor: pointer;
+      font-weight: bold;
+    }
+  }
+}

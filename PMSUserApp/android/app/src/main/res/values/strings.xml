@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">npr-user-app</string>
+    <string name="title_activity_main">npr-user-app</string>
+    <string name="package_name">com.npr.userapp</string>
+    <string name="custom_url_scheme">com.npr.userapp</string>
+</resources>
